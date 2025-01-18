@@ -26,7 +26,7 @@ int main() {
 
     while(1) {
         printf("Enter telephone number: ");
-        scanf("%s", phnum);
+        scanf("%s", &phnum);
         while(getchar() != '\n');  // to remove extra input data remaining (buffer flush)
 
         int size = strlen(phnum);
